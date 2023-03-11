@@ -1,0 +1,87 @@
+<div class="modal-dialog modal-dialog-centered ">
+    <div class="modal-content">
+      <div class="modal-header bg-primary">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Register</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+
+        <!-- <form (ngSubmit)="onSubmit()" [formGroup]="registrationForm">
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" class="form-control" formControlName="firstName" />
+              <div *ngIf="firstName?.invalid && (firstName?.dirty || firstName?.touched)">
+                <div *ngIf="firstName.errors.required">First Name is required</div>
+                <div *ngIf="firstName.errors.pattern">Only alphabetic characters are allowed and the length should not exceed 20 characters</div>
+              </div>
+            </div>
+          
+            <div class="form-group">
+              <label for="age">Age</label>
+              <input type="range" id="age" class="form-control-range" formControlName="age" [min]="18" [max]="60">
+              <span>{{registrationForm.controls.age.value}}</span>
+            </div>
+          
+            <div class="form-group">
+              <label for="interests">Interests</label>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Enter Interest" [(ngModel)]="newInterest">
+                <div class="input-group-append">
+                  <button class="btn btn-primary" type="button" (click)="addInterest()">Add</button>
+                </div>
+              </div>
+              <div *ngFor="let interest of interests" class="d-inline-block m-1">
+                <span class="badge badge-primary">{{interest}} <button type="button" class="close" aria-label="Close" (click)="removeInterest(interest)"><span aria-hidden="true">&times;</span></button></span>
+              </div>
+            </div>
+          
+            <div class="form-group">
+              <label for="photo">Photo</label>
+              <input type="file" id="photo" class="form-control-file" (change)="onFileSelected($event)">
+              <div *ngIf="photoSelected" class="mt-2">
+                <img [src]="photoPreviewUrl" class="img-thumbnail">
+              </div>
+            </div>
+          
+            <div class="form-group">
+              <label for="addressType">Address Type</label>
+              <select id="addressType" class="form-control" formControlName="addressType" (change)="onAddressTypeSelected()">
+                <option value="Home">Home</option>
+                <option value="Company">Company</option>
+              </select>
+            </div>
+          
+            <div *ngIf="isHomeAddress" class="form-group">
+              <label for="address1">Address 1</label>
+              <input type="text" id="address1" class="form-control" formControlName="homeAddress1" />
+              <div *ngIf="homeAddress1?.invalid && (homeAddress1?.dirty || homeAddress1?.touched)">
+                <div *ngIf="homeAddress1?.errors.required">Home Address 1 is required</div>
+              </div>
+              <label for="address2">Address 2</label>
+              <input type="text" id="address2" class="form-control" formControlName="homeAddress2" />
+            </div>
+          
+            <div *ngIf="isCompanyAddress" class="form-group">
+              <label for="companyAddress1">Company Address 1</label>
+              <input type="text" id="companyAddress1" class="form-control" formControlName="company
+              address1" />
+              <div *ngIf="companyAddress1?.invalid && (companyAddress1?.dirty || companyAddress1?.touched)">
+              <div *ngIf="companyAddress1.errors.required">Company Address 1 is required</div>
+              </div>
+              <label for="companyAddress2">Company Address 2</label>
+              <input type="text" id="companyAddress2" class="form-control" formControlName="companyAddress2" />
+              
+                </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+              
+              </form>           -->
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>

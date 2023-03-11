@@ -1,0 +1,61 @@
+.hero-section {
+    min-height: 100vh;
+    background: url('https://cognizant.scene7.com/is/image/cognizant/glossary-banner-1?wid=1600&fit=wrap');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+section .description-box input {
+    width: 80%;
+    border: none;
+    padding: 10px 0px;
+    border-radius: 0px !important;
+    box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.677);
+}
+
+input::placeholder {
+    font-style: italic;
+    padding-left: 30px;
+}
+
+.second {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .location-select {
+    padding: 8px 28px 8px 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    appearance: none;
+  }
+  
+  .location-select:focus {
+    outline: none;
+    border-color: #2196F3;
+  }
+  
+  .fa-caret-down {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  

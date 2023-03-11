@@ -1,0 +1,37 @@
+<section class="hero-section">
+    <div class="container ">
+    <h1 class="text-white fw-light"><i>I'm looking for...!</i></h1>
+    <div class=" w-100 mb-4 mt-5 d-flex justify-content-between description-box">
+        <input class="rounded-1 " type="text" placeholder="Enter a job description">
+        <button class="px-5 btn btn-primary ms-5">Search</button>
+    </div>
+    <div class=" second">
+        <div>
+        <input type="checkbox" name="" id="">
+        <label class="ms-3" for="">Full Time</label>
+        <input class="ms-3" type="checkbox" name="" id="">
+        
+        <label for="" class="ms-3">Part Time / Casual / Freelance</label>
+    </div>
+    <div class="dropdown">
+        <select class="location-select" name="location">
+          <option value="" disabled selected>Select your location</option>
+          <option value="New York">New York</option>
+          <option value="London">London</option>
+          <option value="Tokyo">Tokyo</option>
+          <option value="Sydney">Sydney</option>
+        </select>
+        <i class="fa fa-caret-down"></i>
+      </div>
+      
+    </div>  
+    <div class="w-100 text-center mt-5 pt-3">
+    <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-primary px-5 py-3">Register</button>
+        </div>
+</div>
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <app-registration></app-registration>
+</div>

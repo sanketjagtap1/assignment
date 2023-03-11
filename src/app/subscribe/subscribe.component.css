@@ -1,0 +1,35 @@
+.email-input {
+    position: relative;
+    width: 30%;
+    padding: 0px 30px;
+  }
+  
+  .email-input input[type="email"] {
+    padding: 12px 40px 12px 16px;
+    background: transparent;
+    border: 2px solid #2196F3;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .email-input input[type="email"]:focus {
+    outline: none;
+    border-color: #2196F3;
+  }
+  
+  .email-input i {
+    position: absolute;
+    top: 50%;
+    right: 45px;
+    transform: translateY(-50%);
+    color: #fdfdfd;
+  }
+  section{
+    background: url('https://cognizant.scene7.com/is/image/cognizant/glossary-banner-1?wid=1600&fit=wrap');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
