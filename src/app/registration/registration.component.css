@@ -1,0 +1,35 @@
+
+.imageBox {
+    display: block;
+    border: 2px solid rgba(53, 53, 53, 0.37);
+    width: 120px;
+    height: 130px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/149/149071.png');
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: gray;
+  }
+  label {
+    font-size: 14px;
+  }
+  
+  .imageBox input {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+  }
+  input,
+  select {
+    margin: 5px 0px;
+  }
+  .imageBox label {
+    position: relative;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .tag {
+    background: grey;
+    padding: 5px 10px;
+  }
