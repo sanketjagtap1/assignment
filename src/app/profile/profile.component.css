@@ -7,14 +7,15 @@
     background-color:#ffcc33;
     border: 0;
     border-bottom: 3px solid brown;
-    padding: 4px 7px;
+    padding: 5px 20px;
     color: black;
 }
 .button-box{
     display: flex;
     justify-content: space-between;
     width: 70%;
-    margin-top: 9px;
+    margin-top: 9px 10px 11px 12px;
+    padding: 5px 10px 10px 10px;
 }
 .row .col-8 button{
     background-color: green;
